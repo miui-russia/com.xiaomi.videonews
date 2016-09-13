@@ -3,9 +3,11 @@ package com.xiaomi.videonews;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-import io.vov.vitamio.MediaPlayer;
+
+
 
 public class MainActivity extends AppCompatActivity {
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
