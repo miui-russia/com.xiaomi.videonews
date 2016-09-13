@@ -115,8 +115,9 @@ public class SimpleVideoPlayer extends FrameLayout {
             @Override
             public void onClick(View v) {
                 // TODO: 16-9-13 点击跳转到全屏
-                Intent intent = new Intent(getContext(), VideoViewActivity.class);
-                getContext().startActivity(intent);
+//                Intent intent = new Intent(getContext(), VideoViewActivity.class);
+//                getContext().startActivity(intent);
+                VideoViewActivity.open(getContext(),videoPath);
             }
         });
     }
@@ -209,6 +210,7 @@ public class SimpleVideoPlayer extends FrameLayout {
         mediaPlayer.release();
         mediaPlayer = null;
         isPresent = false;
+        progressBar.setProgress(0);
     }
 
     private void setVideoPath(String videoPath) {
