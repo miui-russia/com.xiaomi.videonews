@@ -15,7 +15,6 @@ import java.util.Locale;
 
 import io.vov.vitamio.MediaPlayer;
 import io.vov.vitamio.Vitamio;
-import io.vov.vitamio.widget.MediaController;
 import io.vov.vitamio.widget.VideoView;
 
 /**

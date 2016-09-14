@@ -1,7 +1,6 @@
 package com.xiaomi.videoplayer.part;
 
 import android.content.Context;
-import android.content.Intent;
 import android.graphics.PixelFormat;
 
 
@@ -117,7 +116,7 @@ public class SimpleVideoPlayer extends FrameLayout {
                 // TODO: 16-9-13 点击跳转到全屏
 //                Intent intent = new Intent(getContext(), VideoViewActivity.class);
 //                getContext().startActivity(intent);
-                VideoViewActivity.open(getContext(),videoPath);
+                VideoViewActivity.open(getContext(), videoPath);
             }
         });
     }
