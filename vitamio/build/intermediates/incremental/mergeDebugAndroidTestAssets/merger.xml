@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="debug"><source path="C:\Documents and Settings\Administrator\AndroidStudioProjects\VideoNews\vitamio\build\intermediates\bundles\debug\assets"/></dataSet><dataSet config="main"><source path="C:\Documents and Settings\Administrator\AndroidStudioProjects\VideoNews\vitamio\src\androidTest\assets"/></dataSet></merger>
+<merger version="3"><dataSet config="debug"><source path="D:\aa\com.xiaomi.videonews\vitamio\build\intermediates\bundles\debug\assets"/></dataSet><dataSet config="main"><source path="D:\aa\com.xiaomi.videonews\vitamio\src\androidTest\assets"/></dataSet></merger>
