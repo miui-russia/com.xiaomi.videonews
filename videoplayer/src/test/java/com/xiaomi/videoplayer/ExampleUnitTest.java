@@ -1,4 +1,4 @@
-package com.xiaomi.videonews;
+package com.xiaomi.videoplayer;
 
 import org.junit.Test;
 

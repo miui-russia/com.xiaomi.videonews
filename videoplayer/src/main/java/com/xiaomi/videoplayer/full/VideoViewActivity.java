@@ -9,7 +9,8 @@ import android.view.WindowManager;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.xiaomi.videonesws.R;
+
+import com.xiaomi.videoplayer.R;
 
 import java.util.Locale;
 

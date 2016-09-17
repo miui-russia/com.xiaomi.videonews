@@ -52,7 +52,6 @@ public class MainActivity extends AppCompatActivity implements ViewPager.OnPageC
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        Log.d("viewPager", "1");
         setContentView(R.layout.activity_main);
         Log.d("viewPager", "3");
 

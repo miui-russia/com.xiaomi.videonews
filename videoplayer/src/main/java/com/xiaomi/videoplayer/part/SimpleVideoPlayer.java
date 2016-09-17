@@ -18,7 +18,8 @@ import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
-import com.xiaomi.videonesws.R;
+
+import com.xiaomi.videoplayer.R;
 import com.xiaomi.videoplayer.full.VideoViewActivity;
 
 import java.io.IOException;

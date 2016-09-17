@@ -61,6 +61,7 @@ public class LocalVideoFragment extends Fragment implements android.support.v4.a
     @Override
     public void onDestroy() {
         super.onDestroy();
+        adapter.release();
     }
     //加载视频的开始
     @Override

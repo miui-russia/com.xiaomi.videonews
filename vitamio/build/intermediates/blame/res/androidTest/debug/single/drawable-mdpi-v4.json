@@ -2,5 +2,9 @@
     {
         "merged": "D:\\aa\\com.xiaomi.videonews\\vitamio\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\ic_launcher.png",
         "source": "D:\\aa\\com.xiaomi.videonews\\vitamio\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\com.xiaomi.videonews\\vitamio\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\ic_launcher.png",
+        "source": "E:\\com.xiaomi.videonews\\vitamio\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\ic_launcher.png"
     }
 ]

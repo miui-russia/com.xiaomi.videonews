@@ -11,7 +11,8 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.widget.ImageButton;
 
-import com.xiaomi.videonesws.R;
+
+import com.xiaomi.videoplayer.R;
 
 import io.vov.vitamio.widget.MediaController;
 
