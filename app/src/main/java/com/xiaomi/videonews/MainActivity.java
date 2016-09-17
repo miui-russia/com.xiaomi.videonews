@@ -9,6 +9,8 @@ import android.util.Log;
 import android.widget.Button;
 
 import com.xiaomi.videonews.ui.LocalVideoFragment;
+import com.xiaomi.videonews.ui.likes.LikesFragment;
+import com.xiaomi.videonews.ui.news.NewsFragment;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -34,9 +36,11 @@ public class MainActivity extends AppCompatActivity implements ViewPager.OnPageC
             //目前都是本地视频
             switch (position){
                 case 0:
+                    return new NewsFragment();
                 case 1:
-                case 2:
                     return new LocalVideoFragment();
+                case 2:
+                    return new LikesFragment();
                 default:
                     throw new RuntimeException("不存在的数据");
             }

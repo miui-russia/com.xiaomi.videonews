@@ -31,7 +31,7 @@ import io.vov.vitamio.utils.Log;
 /**
  * Created by Administrator on 16-9-13.
  */
-public class SimpleVideoPlayer extends FrameLayout {
+public class SimpleVideoView extends FrameLayout {
 
     private String videoPath;   //视频播放的URL
     private MediaPlayer mediaPlayer;
@@ -48,15 +48,17 @@ public class SimpleVideoPlayer extends FrameLayout {
     private boolean isPlaying;
     private static final int PROGRESS_MAX = 1000;
 
-    public SimpleVideoPlayer(Context context) {
+
+
+    public SimpleVideoView(Context context) {
         this(context, null);
     }
 
-    public SimpleVideoPlayer(Context context, AttributeSet attrs) {
+    public SimpleVideoView(Context context, AttributeSet attrs) {
         this(context, attrs, 0);
     }
 
-    public SimpleVideoPlayer(Context context, AttributeSet attrs, int defStyleAttr) {
+    public SimpleVideoView(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         initView();
     }
@@ -80,6 +82,8 @@ public class SimpleVideoPlayer extends FrameLayout {
         initControllerViews(); // 初始化视频播放控制视图
 
     }
+
+
 
     private void initSurfaceView() {
         surfaceView = (SurfaceView) findViewById(R.id.surfaceView);
@@ -123,7 +127,7 @@ public class SimpleVideoPlayer extends FrameLayout {
     }
 
     //对外提供三个方法，用来对MediaPlayer进行生命周期及状态控制
-    private void onResume() {
+    public void onResume() {
         //用来初始状态
         initMediaPlayer(); // 初始化MediaPlayer，设置一系列监听器
         prepareMediaPlayer(); // 准备MediaPlayer，同时更新UI状态
@@ -190,7 +194,7 @@ public class SimpleVideoPlayer extends FrameLayout {
         }
     }
 
-    private void onPause() {
+    public void onPause() {
         //用来释放状态
         pauseMediaPlayer(); // 暂停播放，同时更新UI状态
         releaseMediaPlayer(); // 释放MediaPlayer，同时更新UI状态
@@ -213,7 +217,7 @@ public class SimpleVideoPlayer extends FrameLayout {
         progressBar.setProgress(0);
     }
 
-    private void setVideoPath(String videoPath) {
+    public void setVideoPath(String videoPath) {
         this.videoPath = videoPath;
     }
 }
