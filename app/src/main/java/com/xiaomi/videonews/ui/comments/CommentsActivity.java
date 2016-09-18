@@ -92,8 +92,8 @@ public class CommentsActivity extends AppCompatActivity implements EditCommentFr
         super.onContentChanged();
         ButterKnife.bind(this);
         // 设置toolbar
-        setSupportActionBar(toolbar);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+//        setSupportActionBar(toolbar);
+//        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         //
         tvTitle.setText(newsEntity.getNewsTitle());
         // 告诉评论列表视图，针对哪一条新闻去获取评论数据

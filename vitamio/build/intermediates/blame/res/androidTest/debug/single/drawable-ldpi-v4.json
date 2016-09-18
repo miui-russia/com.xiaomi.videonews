@@ -1,10 +1,10 @@
 [
     {
-        "merged": "E:\\com.xiaomi.videonews\\vitamio\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldpi-v4\\ic_launcher.png",
-        "source": "E:\\com.xiaomi.videonews\\vitamio\\build\\intermediates\\bundles\\debug\\res\\drawable-ldpi-v4\\ic_launcher.png"
-    },
-    {
         "merged": "D:\\aa\\com.xiaomi.videonews\\vitamio\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldpi-v4\\ic_launcher.png",
         "source": "D:\\aa\\com.xiaomi.videonews\\vitamio\\build\\intermediates\\bundles\\debug\\res\\drawable-ldpi-v4\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\com.xiaomi.videonews\\vitamio\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldpi-v4\\ic_launcher.png",
+        "source": "E:\\com.xiaomi.videonews\\vitamio\\build\\intermediates\\bundles\\debug\\res\\drawable-ldpi-v4\\ic_launcher.png"
     }
 ]

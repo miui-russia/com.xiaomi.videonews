@@ -1,10 +1,10 @@
 [
     {
-        "merged": "D:\\aa\\com.xiaomi.videonews\\vitamio\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\mediacontroller.xml",
-        "source": "D:\\aa\\com.xiaomi.videonews\\vitamio\\build\\intermediates\\bundles\\debug\\res\\layout\\mediacontroller.xml"
-    },
-    {
         "merged": "E:\\com.xiaomi.videonews\\vitamio\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\mediacontroller.xml",
         "source": "E:\\com.xiaomi.videonews\\vitamio\\build\\intermediates\\bundles\\debug\\res\\layout\\mediacontroller.xml"
+    },
+    {
+        "merged": "D:\\aa\\com.xiaomi.videonews\\vitamio\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\mediacontroller.xml",
+        "source": "D:\\aa\\com.xiaomi.videonews\\vitamio\\build\\intermediates\\bundles\\debug\\res\\layout\\mediacontroller.xml"
     }
 ]

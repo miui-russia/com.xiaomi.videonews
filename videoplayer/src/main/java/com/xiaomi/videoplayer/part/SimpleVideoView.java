@@ -7,6 +7,7 @@ import android.graphics.PixelFormat;
 import android.os.Handler;
 import android.os.Message;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
@@ -26,7 +27,7 @@ import java.io.IOException;
 
 import io.vov.vitamio.MediaPlayer;
 import io.vov.vitamio.Vitamio;
-import io.vov.vitamio.utils.Log;
+
 
 /**
  * Created by Administrator on 16-9-13.
@@ -113,7 +114,7 @@ public class SimpleVideoView extends FrameLayout {
         //设置进度条
         progressBar = (ProgressBar) findViewById(R.id.progressBar);
         progressBar.setMax(PROGRESS_MAX );
-
+        btnFullScreen = (ImageButton) findViewById(R.id.btnFullScreen);
         //设置全屏
         btnFullScreen.setOnClickListener(new OnClickListener() {
             @Override
@@ -190,7 +191,7 @@ public class SimpleVideoView extends FrameLayout {
             mediaPlayer.setLooping(true);
             mediaPlayer.prepareAsync();
         } catch (IOException e) {
-            Log.d("simplevideo","prepare MediaPlayer"+e.getMessage());
+            Log.d("simplevideo", "prepare MediaPlayer" + e.getMessage());
         }
     }
 

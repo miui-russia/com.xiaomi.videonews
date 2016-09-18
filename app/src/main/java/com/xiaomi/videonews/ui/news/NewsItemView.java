@@ -2,6 +2,7 @@ package com.xiaomi.videonews.ui.news;
 
 import android.content.Context;
 import android.graphics.SurfaceTexture;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Surface;
 import android.view.TextureView;
@@ -22,6 +23,7 @@ import com.xiaomi.videoplayer.list.MediaPlayerManager;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
+
 
 /**
  * 新闻列表的单项视图, 将使用 MediaPlayer播放视频,TextureView来显示视频
@@ -68,7 +70,7 @@ public class NewsItemView extends BaseItemView<NewsEntity> implements
         ivPlay.setVisibility(View.VISIBLE);
         // 设置标题,创建时间和预览图
         tvNewsTitle.setText(newsEntity.getNewsTitle());
-        tvNewsTitle.setText(newsEntity.getNewsTitle());
+        //tvNewsTitle.setText(newsEntity.getNewsTitle());
         tvCreatedAt.setText(CommonUtils.format(newsEntity.getCreatedAt()));
         // 设置预览图像
         String url = CommonUtils.encodeUrl(newsEntity.getPreviewUrl());
@@ -77,6 +79,7 @@ public class NewsItemView extends BaseItemView<NewsEntity> implements
 
     @OnClick(R.id.tvCreatedAt)
     public void navigateToComments() {
+        Log.d("comment", "22");
         CommentsActivity.open(getContext(), newsEntity);
     }
 

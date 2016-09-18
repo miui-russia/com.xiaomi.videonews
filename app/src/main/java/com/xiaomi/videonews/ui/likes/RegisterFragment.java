@@ -52,8 +52,7 @@ public class RegisterFragment extends DialogFragment {
     @Nullable @Override public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         // 无标题栏
         getDialog().requestWindowFeature(Window.FEATURE_NO_TITLE);
-
-        return inflater.inflate(R.layout.dialog_register, container, false);
+        return inflater.inflate(R.layout.dialog_register, container,false);
     }
 
     @Override public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
